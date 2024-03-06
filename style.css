@@ -1,0 +1,104 @@
+body {
+    background-image: url('leaning-bike.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.sub-headings {
+    color: rgb(252, 249, 249);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #f80101;
+    color: #fff;
+    display: flex;
+    /* flexbox used for layout, do more research */
+    align-items: center;
+    justify-content: space-around;
+    /* centered more evenly than using space between, more research */
+    padding: 10px 10px;
+
+}
+
+.logo img {
+    height: 150px;
+
+}
+
+#myHeader {
+
+    font-size: 40px;
+    font-style: oblique;
+}
+
+.heading {
+    font-style: oblique;
+
+}
+
+.topnav {
+    color: #f80101;
+    padding: 15px;
+    font-size: larger;
+
+}
+
+.navbar {
+
+    text-align: center;
+}
+
+.container {
+
+    position: absolute;
+    margin-bottom: 100px;
+    text-align: left;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    width: 1200px;
+    background-color: rgb(255, 255, 255)
+}
+
+html {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+img[alt="rider-on-road"] {
+    border: 2px solid #f80101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+img {
+    float: left;
+}
+
+div.container {
+    opacity: 0.9;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    border-color: #f80101;
+
+}
